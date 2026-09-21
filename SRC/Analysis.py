@@ -47,3 +47,26 @@ print("Porcentaje de supervivencia:", supervivencia)
 print(df.groupby("Sex")["Survived"].mean() * 100)
 print(df.groupby("Pclass")["Survived"].mean() * 100)
 print(df.groupby("Alone")["Survived"].mean() * 100)
+#----------------------------------------------
+sns.barplot(data=df, x="Sex", y="Survived")
+
+plt.title("Supervivencia según el sexo")
+plt.ylabel("Porcentaje de supervivencia")
+plt.xlabel("Sexo")
+
+plt.show()
+sns.barplot(data=df, x="Pclass", y="Survived")
+
+plt.title("Supervivencia según la clase")
+plt.ylabel("Porcentaje de supervivencia")
+plt.xlabel("Clase")
+
+plt.show()
+
+sns.barplot(data=df, x="AgeGroup", y="Survived")
+
+plt.title("Supervivencia según grupo de edad")
+plt.ylabel("Porcentaje de supervivencia")
+plt.xlabel("Grupo de edad")
+
+plt.show()

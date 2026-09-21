@@ -78,7 +78,7 @@ Para ejecutar este proyecto se necesita tener instalado:
 ### Paso 1. Clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/ElTalGunshy/TITANIC.git
 ```
 
 ### Paso 2. Entrar a la carpeta del proyecto
@@ -193,4 +193,4 @@ De esta manera, el proyecto puede ejecutarse en un entorno nuevo sin necesidad d
 
 ## 13. Repositorio
 
-**GitHub:** URL_DEL_REPOSITORIO
+**GitHub:** https://github.com/ElTalGunshy/TITANIC
